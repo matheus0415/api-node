@@ -1,0 +1,24 @@
+#commands
+npm install -D typescript @types/node tsx tsup
+
+#initiate typescript config
+npx tsc --init
+#changed config to es2020
+
+#install fastify framework for route
+npm i fastify
+
+#install prisma for DB
+npm i prisma -D
+
+#production dependency
+npm i @prisma/client -D
+
+#initialize
+npx prisma init 
+
+#update db with schema
+npx prisma migrate dev
+
+#see tabs on browser
+npx prisma studio
